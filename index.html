@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     
-    <div>
-        <header>
-            <div>
+    <div class="container">
+        <header class="header">
+            <div class="header-text-section">
                 <h2>Hello, I'm</h2>
                 <h1>Haneef Khan</h1>
                 <h2>Web Development</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos facilis reprehenderit modi doloremque placeat tempore ex libero dicta quisquam expedita quod, iste, ullam sint ad, excepturi est ea laborum.</p>
             </div>
+            <div class="header-image-section">
+                <img class="header-image" src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="500px" />
+            </div>
         </header>
     </div>
-    <div>
-        <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="500px" />
-    </div>
 
-    <section>
-        <h2>Skills</h2>
-        <div>HTML, CSS, Javascript</div>
+    <section class="skills-section">
+        <div class="skills-title">Skills</div>
+        <div class="skills-card">HTML, CSS, Javascript</div>
     </section>
 
     <section>
         <h2>Projects</h2>
-        
-        <div>
+        <div class="carousel">
             <button>&#8592;</button>
             <div>
             
-            
+            <div class="Projects-card">
+                <img src="" alt="an image" class="project-image"> 
+                <h3 class="project-title"> A Project</h3>
+                <p class="project-text"> Some Text</p>
+                <a class="project-link">Link</a>
+            </div>
             
         </div>
         <button>&#8594;</button>
@@ -104,5 +109,14 @@
                 </div>
         </div>
     </section>
+    <footer>
+        <div>
+            <p>&copy; 2025 Haneef Khan </p>
+            <a href="https://www.linkedin.com/in/haneef-khan-b8b264223/">LinkedIn</a>
+            <a href=""></a>GitHub </a>
+            <a href=""></a>Instagram </a>
+
+        </div>
+    </footer>   
 </body>
 </html>
